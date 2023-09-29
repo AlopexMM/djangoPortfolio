@@ -25,11 +25,11 @@ h2 {
 
 a {
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
-p {
-    font-weight: 300 bold;
+p label {
+    font-weight: 300;
     font-size: 2em;
 }
 
@@ -38,6 +38,33 @@ hr {
     color: black;
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+form > p {
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 1.7em;
+}
+
+form > p > input {
+    background-color: #d9d5d4;
+}
+
+form > p > textarea {
+    background-color: #d9d5d4;
+}
+
+form > input {
+    background-color: #008CBA;
+    font-size: 1.5em;
+    border:none;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #content {
